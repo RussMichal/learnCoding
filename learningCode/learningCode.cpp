@@ -4,12 +4,9 @@
 #include <iostream>
 #include "avg.h"
 #include "ImaniLesson5.h"
-void Lesson4();
 
 int main(std::string arg)
 {
-
-	Lesson4();
 
 	//functions
 	//multi files
