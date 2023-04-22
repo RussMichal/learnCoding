@@ -135,6 +135,8 @@
     <ClCompile Include="avg.cpp" />
     <ClCompile Include="CodyLesson2.cpp" />
     <ClCompile Include="CodyLesson3.cpp" />
+    <ClCompile Include="CodyLesson4.cpp" />
+    <ClCompile Include="CodyLesson6.cpp" />
     <ClCompile Include="ImaniLesson1.cpp" />
     <ClCompile Include="ImaniLesson2.cpp" />
     <ClCompile Include="ImaniLesson3.cpp" />
@@ -149,6 +151,11 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="avg.h" />
+    <ClInclude Include="CodyLesson2.h" />
+    <ClInclude Include="CodyLesson3.h" />
+    <ClInclude Include="CodyLesson4.h" />
+    <ClInclude Include="CodyLesson6.h" />
+    <ClInclude Include="Global.h" />
     <ClInclude Include="ImaniLesson5.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

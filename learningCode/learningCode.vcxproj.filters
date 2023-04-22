@@ -72,6 +72,12 @@
     <ClCompile Include="avg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CodyLesson6.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CodyLesson4.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="avg.h">
@@ -79,6 +85,21 @@
     </ClInclude>
     <ClInclude Include="ImaniLesson5.h">
       <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodyLesson2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodyLesson3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodyLesson4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodyLesson6.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

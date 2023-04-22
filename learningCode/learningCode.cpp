@@ -3,8 +3,9 @@
 
 #include <iostream>
 #include "avg.h"
-#include "ImaniLesson5.h"
+#include "Global.h"
 
 int main(std::string arg)
 {
+	CodyLesson6();
 }
