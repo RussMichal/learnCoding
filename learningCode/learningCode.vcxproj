@@ -137,6 +137,7 @@
     <ClCompile Include="CodyLesson3.cpp" />
     <ClCompile Include="CodyLesson4.cpp" />
     <ClCompile Include="CodyLesson6.cpp" />
+    <ClCompile Include="CodyLesson7.cpp" />
     <ClCompile Include="ImaniLesson1.cpp" />
     <ClCompile Include="ImaniLesson2.cpp" />
     <ClCompile Include="ImaniLesson3.cpp" />
@@ -155,6 +156,7 @@
     <ClInclude Include="CodyLesson3.h" />
     <ClInclude Include="CodyLesson4.h" />
     <ClInclude Include="CodyLesson6.h" />
+    <ClInclude Include="CodyLesson7.h" />
     <ClInclude Include="Global.h" />
     <ClInclude Include="ImaniLesson5.h" />
   </ItemGroup>

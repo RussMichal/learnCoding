@@ -78,6 +78,9 @@
     <ClCompile Include="CodyLesson4.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="CodyLesson7.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="avg.h">
@@ -99,6 +102,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="CodyLesson6.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CodyLesson7.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

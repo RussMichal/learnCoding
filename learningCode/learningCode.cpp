@@ -7,5 +7,5 @@
 
 int main(std::string arg)
 {
-	CodyLesson6();
+	CodyLesson7();
 }
