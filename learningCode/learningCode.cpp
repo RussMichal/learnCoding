@@ -2,49 +2,47 @@
 //
 
 #include <iostream>
-#include<vector>
-#include<queue>
-#include<stack>
+#include <vector>
+#include <list>
+
+#include <queue>
+#include <stack>
 
 int main(std::string arg)
 {
-	std::vector<int> vec;
-	vec.reserve(20);
-	for (int i = 0; i < 20; i++)
+	struct person
 	{
-		vec.push_back(i);
+		std::string name;
+		int salary;
+		bool rich;
+	};
+
+	int age=0;
+	person employee;
+	person employee2;
+	person employee3 = {"russ",69,true};
+
+	employee.name = "imani";
+	employee.salary = 3;
+	employee.rich = true;
+
+	employee2.name = "cody";
+	employee2.salary = 999999;
+	employee2.rich = false;
+
+	std::vector<person> contianer;
+
+	contianer.push_back(employee);
+	contianer.push_back(employee2);
+
+	for (int i = 0; i < contianer.size(); i++)
+	{
+		std::cout << "name: " << contianer[i].name << "\n";
+		std::cout << "salary: " << contianer[i].salary << "\n";
+		std::cout << "rich: "<< contianer[i].rich << "\n";
 	}
-	int cap = vec.capacity();
-	int size = vec.size();
 
-	std::vector<int> peopleInStore;
-	peopleInStore.reserve(10);
+	//vending machine vector<struct>
+	//user buys items from machine
 
-	peopleInStore.push_back(20);
-	peopleInStore.push_back(10);
-	peopleInStore.push_back(100);
-	peopleInStore.erase(peopleInStore.begin());
-
-	std::queue<std::string> line;//FIFO
-	line.push("tim");
-	line.push("john");
-	line.push("jim");
-	line.push("bob");
-	line.pop();
-	line.pop();
-
-	std::stack<int> Deck;//FILO
-	Deck.push(1);
-	Deck.push(2);
-	Deck.push(3);
-	Deck.pop();
-	//data structures
-
-	//loop until - num entered
-	// add each num entered into a contianer
-	// print all values in container
-	// print avg of container	
-
-	//vector, linked lists
-	//all the rest
 }
