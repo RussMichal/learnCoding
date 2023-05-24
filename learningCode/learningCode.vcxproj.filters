@@ -72,6 +72,9 @@
     <ClCompile Include="avg.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="avg.h">

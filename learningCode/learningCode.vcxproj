@@ -146,6 +146,7 @@
     <ClCompile Include="Lesson3.cpp" />
     <ClCompile Include="Lesson4.cpp" />
     <ClCompile Include="lesson5.cpp" />
+    <ClCompile Include="structs.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="avg.h" />

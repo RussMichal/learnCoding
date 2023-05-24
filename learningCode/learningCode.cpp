@@ -8,41 +8,54 @@
 #include <queue>
 #include <stack>
 
+#include <map>
+#include <unordered_map>
+
 int main(std::string arg)
 {
-	struct person
+	std::map<int, std::string> phonemap;
+
+	phonemap[123456] = "russ";
+	phonemap[1111] = "cody";
+	phonemap[2222] = "imani";
+
+	std::cout<<phonemap[1111]<<"\n";
+
+	struct food
 	{
 		std::string name;
-		int salary;
-		bool rich;
+		float price;
+		float weight;
+		int cal;
 	};
 
-	int age=0;
-	person employee;
-	person employee2;
-	person employee3 = {"russ",69,true};
+	std::map<std::string, food> foodmap;
+	foodmap["chip"] = { "chip",0.0f,0.0f,0 };
+	foodmap["nut"] = { "nut",2.0f,0.2f,2 };
+	foodmap["water"] = { "water",3.0f,3.2f,3 };
 
-	employee.name = "imani";
-	employee.salary = 3;
-	employee.rich = true;
+	float cash = 10.0f;
+	food item = foodmap["chip"];
+	std::cout << item.name << "\n";
+	std::cout << item.price << "\n";
+	std::cout << item.weight << "\n";
+	std::cout << item.cal << "\n";
+	std::cout<<"remaining chash "<<cash - item.price << "\n";
 
-	employee2.name = "cody";
-	employee2.salary = 999999;
-	employee2.rich = false;
-
-	std::vector<person> contianer;
-
-	contianer.push_back(employee);
-	contianer.push_back(employee2);
-
-	for (int i = 0; i < contianer.size(); i++)
+	struct person
 	{
-		std::cout << "name: " << contianer[i].name << "\n";
-		std::cout << "salary: " << contianer[i].salary << "\n";
-		std::cout << "rich: "<< contianer[i].rich << "\n";
-	}
+		int phonenumber;
+		std::string name;
+	};
 
-	//vending machine vector<struct>
-	//user buys items from machine
+	person imani = { 1111,"imani" };
+	person cody = { 222,"cody" };
+	std::vector<person> vec;
+	vec.push_back(imani);
+	vec.push_back(cody);
 
+	//change vinding machine to use a map for const look up time.
+	//scan in an item to buy from keyboard
+	//find item in map
+	//print out item information
 }
